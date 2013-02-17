@@ -9,7 +9,7 @@
             <control>
                 <group>[Playlist]</group>
                 <key>SelectPrevTrack</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x4F</midino>
                 <options>
                     <normal/>
@@ -18,7 +18,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>cue_default</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x33</midino>
                 <options>
                     <normal/>
@@ -26,8 +26,26 @@
             </control>
             <control>
                 <group>[Channel1]</group>
+                <key>keylock</key>
+                <status>0x90</status>
+                <midino>0x66</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>keylock</key>
+                <status>0x90</status>
+                <midino>0x68</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
                 <key>filterHigh</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x14</midino>
                 <options>
                     <normal/>
@@ -36,7 +54,7 @@
             <control>
                 <group>[PreviewDeck1]</group>
                 <key>iCON.previewSeek</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x57</midino>
                 <options>
                     <script-binding/>
@@ -45,7 +63,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>beatsync</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x65</midino>
                 <options>
                     <normal/>
@@ -54,7 +72,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>reloop_exit</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x38</midino>
                 <options>
                     <normal/>
@@ -63,7 +81,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>iCON.rate</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x0E</midino>
                 <options>
                     <script-binding/>
@@ -72,7 +90,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>loop_in</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x43</midino>
                 <options>
                     <normal/>
@@ -81,7 +99,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>filterMid</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x19</midino>
                 <options>
                     <normal/>
@@ -90,7 +108,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>LoadSelectedTrack</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x4E</midino>
                 <options>
                     <normal/>
@@ -108,7 +126,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>loop_out</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x32</midino>
                 <options>
                     <normal/>
@@ -117,7 +135,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>iCON.rubber</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x3D</midino>
                 <options>
                     <script-binding/>
@@ -126,7 +144,7 @@
             <control>
                 <group>[Master]</group>
                 <key>volume</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x56</midino>
                 <options>
                     <normal/>
@@ -135,7 +153,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>iCON.jogRotate</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x13</midino>
                 <options>
                     <script-binding/>
@@ -144,7 +162,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>LoadSelectedTrack</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x53</midino>
                 <options>
                     <normal/>
@@ -153,7 +171,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>play</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x37</midino>
                 <options>
                     <normal/>
@@ -162,7 +180,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>iCON.volume</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x0D</midino>
                 <options>
                     <script-binding/>
@@ -171,7 +189,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>loop_in</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x42</midino>
                 <options>
                     <normal/>
@@ -180,7 +198,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>filterLow</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x18</midino>
                 <options>
                     <normal/>
@@ -189,7 +207,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>iCON.scratchTouch</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x31</midino>
                 <options>
                     <script-binding/>
@@ -198,7 +216,7 @@
             <control>
                 <group>[PreviewDeck1]</group>
                 <key>LoadSelectedTrackAndPlay</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x58</midino>
                 <options>
                     <normal/>
@@ -207,7 +225,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>iCON.rubber</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x3C</midino>
                 <options>
                     <script-binding/>
@@ -216,7 +234,7 @@
             <control>
                 <group>[Master]</group>
                 <key>headMix</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x55</midino>
                 <options>
                     <normal/>
@@ -225,7 +243,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>iCON.jogRotate</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x12</midino>
                 <options>
                     <script-binding/>
@@ -234,7 +252,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>cue_default</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x47</midino>
                 <options>
                     <normal/>
@@ -243,7 +261,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>pregain</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x1D</midino>
                 <options>
                     <normal/>
@@ -252,7 +270,7 @@
             <control>
                 <group>[Playlist]</group>
                 <key>SelectNextTrack</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x52</midino>
                 <options>
                     <normal/>
@@ -261,7 +279,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>loop_out</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x36</midino>
                 <options>
                     <normal/>
@@ -270,7 +288,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>iCON.volume</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x0C</midino>
                 <options>
                     <script-binding/>
@@ -279,7 +297,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>filterLow</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x17</midino>
                 <options>
                     <normal/>
@@ -288,7 +306,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>pfl</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x4C</midino>
                 <options>
                     <normal/>
@@ -297,7 +315,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>iCON.scratchTouch</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x30</midino>
                 <options>
                     <script-binding/>
@@ -306,7 +324,7 @@
             <control>
                 <group>[Master]</group>
                 <key>headVolume</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x54</midino>
                 <options>
                     <normal/>
@@ -315,7 +333,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>iCON.rubber</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x3B</midino>
                 <options>
                     <script-binding/>
@@ -324,7 +342,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>iCON.scratchRotate</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x11</midino>
                 <options>
                     <script-binding/>
@@ -333,7 +351,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>play</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x46</midino>
                 <options>
                     <normal/>
@@ -342,7 +360,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>pregain</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x1C</midino>
                 <options>
                     <normal/>
@@ -351,7 +369,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>beatsync</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x67</midino>
                 <options>
                     <normal/>
@@ -360,7 +378,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>iCON.rubber</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x3A</midino>
                 <options>
                     <script-binding/>
@@ -369,7 +387,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>iCON.scratchRotate</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x10</midino>
                 <options>
                     <script-binding/>
@@ -378,7 +396,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>filterHigh</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x1B</midino>
                 <options>
                     <normal/>
@@ -387,7 +405,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>reloop_exit</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x34</midino>
                 <options>
                     <normal/>
@@ -396,7 +414,7 @@
             <control>
                 <group>[PreviewDeck1]</group>
                 <key>play</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x5B</midino>
                 <options>
                     <normal/>
@@ -405,7 +423,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>filterMid</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x15</midino>
                 <options>
                     <normal/>
@@ -414,7 +432,7 @@
             <control>
                 <group>[Channel1]</group>
                 <key>pfl</key>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x55</midino>
                 <options>
                     <normal/>
@@ -423,7 +441,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>iCON.rate</key>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x0F</midino>
                 <options>
                     <script-binding/>
