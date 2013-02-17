@@ -1,17 +1,15 @@
 function iCON() {}
 
-iCON.scratchTimer = 0;
-
 iCON.init = function(id) {
-	engine.softTakeover("[Master]","crossfader",true);
-	engine.softTakeover("[Channel1]","volume",true);
-	engine.softTakeover("[Channel1]","rate",true);
-	engine.softTakeover("[Channel2]","volume",true);
-	engine.softTakeover("[Channel2]","rate",true);
+  engine.softTakeover("[Master]","crossfader",true);
+  engine.softTakeover("[Channel1]","volume",true);
+  engine.softTakeover("[Channel1]","rate",true);
+  engine.softTakeover("[Channel2]","volume",true);
+  engine.softTakeover("[Channel2]","rate",true);
 }
 
 iCON.shutdown = function(id) {
-    // engine.connectControl("[Channel2]", "flanger", "WirelessDJ.buttonOutput", true);
+  // nothing to do here
 }
 
 iCON.rubber = function(channel, control, value, status, group) {
@@ -29,7 +27,6 @@ iCON.rubber = function(channel, control, value, status, group) {
 }
 
 iCON.previewSeek = function(channel, control, value, status, group) {  
-  script.midiDebug(channel, control, value, status, group);
   engine.setValue(group, 'playposition', value/127);      
 }
 
@@ -38,7 +35,7 @@ iCON.jogRotate = function(channel, control, value, status, group) {
   var scrConst = 1;  //Adjust to suit. 
   var scrVal = (value == 0x41)?scrConst:-scrConst;
   engine.setValue(group, "jog", scrVal);
-  }
+}
 
 iCON.scratchRotate = function(channel, control, value, status, group) { 
   var scrConst = 1;  //Adjust to suit. 
@@ -59,12 +56,11 @@ iCON.scratchTouch = function(channel, control, value, status, group) {
   }
 }
 
-
-iCON.volume = function (channel, control, value, status, group) {
-  engine.setValue(group, "volume", (value/127));
+iCON.volume     = function (channel, control, value, status, group) {
+  engine.setValue(group, "volume", (value/127)); 
 };
 
-iCON.rate = function (channel, control, value, status, group) {
+iCON.rate       = function (channel, control, value, status, group) {
   engine.setValue(group, "rate",  ((value-64)/63));
 };
 
