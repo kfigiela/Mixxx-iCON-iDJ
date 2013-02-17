@@ -50,7 +50,7 @@ iCON.scratchRotate = function(channel, control, value, status, group) {
 iCON.scratchTouch = function(channel, control, value, status, group) { 
   if (value == 0x7f) {
     var intervalsPerRev = 80;
-    var rpm = 33.3; //Adjust to suit.
+    var rpm = 15.3; //Adjust to suit.
     var alpha = 0.125; //Adjust to suit. 
     var beta = (alpha/32); //Adjust to suit.
     engine.scratchEnable(control - 0x30 + 1, intervalsPerRev, rpm, alpha, beta, false);  
